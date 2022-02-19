@@ -1,0 +1,22 @@
+.header {
+    grid-template-areas: "items logo cart";
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.items {
+    grid-area: items;
+}
+
+.cart {
+    grid-area: cart;
+}
+
+@media (min-width: 768px) {
+    .header {
+        grid-template-areas: "logo items items items  cart";
+    }
+}
+

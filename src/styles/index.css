@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.button {
+    @apply inline-block select-none w-full h-full text-center text-white rounded-md hover:cursor-pointer font-black shadow-md;
+}
+
+.nav-item {
+    @apply hover:border-secondary hover:border-2  hover:border-solid rounded-md px-2;
+}
+
+
